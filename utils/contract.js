@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 
-// ✅ Your deployed BaseFixedNFT contract
-const CONTRACT_ADDRESS = "0xCE4a10878bFa6A45345af0F6071ba81EB86c104F";
+// ✅ Read contract address from environment variables
+const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
 
 const CONTRACT_ABI = [
   "function mint() external payable",
