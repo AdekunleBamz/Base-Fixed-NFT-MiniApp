@@ -1,6 +1,8 @@
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "YOUR_CONTRACT_ADDRESS_HERE";
+// ✅ Your deployed BaseFixedNFT contract
+const CONTRACT_ADDRESS = "0xCE4a10878bFa6A45345af0F6071ba81EB86c104F";
+
 const CONTRACT_ABI = [
   "function mint() external payable",
   "function mintPrice() view returns (uint256)",
