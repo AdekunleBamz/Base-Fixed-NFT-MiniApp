@@ -1,0 +1,12 @@
+farcaster-nft-miniapp/
+├─ package.json
+├─ next.config.js
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ pages/
+│  ├─ index.js
+├─ components/
+│  ├─ Header.js
+│  ├─ MintButton.js
+├─ utils/
+│  ├─ contract.js
