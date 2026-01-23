@@ -121,3 +121,4 @@ License
 -------
 
 MIT License
+<!-- Improved documentation -->
